@@ -1,0 +1,174 @@
+body {
+    background-color: #2c2c2c; /* Color de fondo gris oscuro */
+    color: #ffffff; /* Color de texto blanco por defecto */
+}
+
+.container {
+    background-color: #3a3a3a; /* Fondo gris más claro del contenedor */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1); /* Sombra suave clara */
+}
+
+h1 {
+    color: #ffffff; /* Color del encabezado en blanco */
+}
+
+p {
+    color: #e0e0e0; /* Color del texto en gris claro */
+}
+
+ul {
+    color: #e0e0e0; /* Color del texto de la lista en gris claro */
+}
+
+.separator {
+    border-top: 1px solid #444; /* Línea delgada en gris oscuro */
+}
+
+/* Mini barra lateral para el botón de cierre de sesión y opciones */
+.sidebar {
+    background-color: #3a3a3a; /* Fondo gris más claro */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Sombra para la mini barra lateral */
+}
+
+#toggle-sidebar { background: #3a3a3a;}
+
+/* Estilo para las User entry */
+.user-entry {
+    background-color: #2a2a2a; /* Fondo oscuro para las entradas */
+    border: 1px solid #444; /* Borde ligero en gris oscuro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra suave para las entradas */
+}
+
+.user-entry h2 {
+    color: #ffffff; /* Color del título de la entrada en blanco */
+}
+
+.user-entry p {
+    color: #cccccc; /* Color del texto de la entrada en gris claro */
+}
+
+/* Estilo para el contenido desplegable */
+.dropdown-content {
+    border: 1px solid #444; /* Borde */
+    background-color: #2a2a2a; /* Color de fondo */
+}
+
+/* Estilos por defecto (tema oscuro) */
+.chat-container {
+    border: 1px solid #444; /* Borde gris oscuro */
+    background-color: #1e1e1e; /* Fondo oscuro */
+}
+
+.chat-box {
+    background-color: #2a2a2a; /* Fondo gris oscuro para el área de chat */
+    color: #ffffff; /* Color de texto blanco */
+    scrollbar-color: #555 #1e1e1e; /* Para Firefox */
+}
+
+.chat-box::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Fondo del riel del scrollbar */
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+    background-color: #555; /* Color del pulgar del scrollbar */
+}
+
+.chat-message {
+    color: #ffffff; /* Color de texto blanco para los mensajes */
+}
+
+.chat-message strong {
+    color: #007bff; /* Color para el texto destacado en azul */
+}
+
+form {
+    background-color: #1e1e1e; /* Fondo oscuro para el formulario */
+    border-top: 1px solid #444; /* Borde gris oscuro en la parte superior */
+}
+
+input[type="text"] {
+    border: 1px solid #444; /* Borde gris oscuro */
+    background-color: #2a2a2a; /* Fondo gris oscuro para el input */
+    color: #ffffff; /* Color de texto blanco en el input */
+}
+
+input[type="text"]::placeholder {
+    color: #aaa; /* Color gris claro para el placeholder */
+}
+
+.send-message-btn {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto en blanco */
+}
+
+.send-message-btn:hover {
+    background-color: #0056b3; /* Color al pasar el ratón */
+}
+
+/* Estilo para las entradas del blog */
+.blog-entry {
+    background-color: #2a2a2a; /* Fondo gris oscuro para las entradas */
+    border: 1px solid #444; /* Borde más oscuro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
+}
+
+.blog-entry h2 {
+    color: #ffffff; /* Color del título de la entrada en tema oscuro */
+}
+
+.blog-entry p {
+    color: #dddddd; /* Color del texto en gris claro */
+}
+
+.entry-text {
+    color: #ffffff; /* Asegurar que el texto dentro de .entry-text sea blanco */
+}
+
+/* Estilo para el contenedor de PDF */
+.pdf-container {
+    background-color: #2a2a2a; /* Fondo gris oscuro para el contenedor del PDF */
+}
+
+.toggle-btn {
+    color: #ffffff; /* Color de los botones en blanco */
+}
+
+.toggle-btn:hover {
+    color: #bbbbbb; /* Color al pasar el mouse */
+}
+
+.hidden-entries {
+    color: #ffffff; /* Asegurar que el texto sea blanco */
+}
+
+/* Estilos para modales */
+.modal {
+    background-color: rgba(0,0,0,0.8); /* Fondo con opacidad más oscura */
+}
+
+.modal-content {
+    background-color: #2a2a2a; /* Fondo gris oscuro para el contenido del modal */
+    border: 1px solid #444; /* Borde gris oscuro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
+}
+
+.close {
+    color: #aaa; /* Color gris claro */
+}
+
+.close:hover,
+.close:focus {
+    color: #ffffff; /* Color blanco al pasar el ratón */
+}
+
+.modal-username {
+    color: #ffffff; /* Color blanco para el nombre de usuario */
+}
+
+.modal-description {
+    color: #aaa; /* Color gris claro */
+}
+
+.modal-body {
+    color: #ffffff; /* Color blanco para el texto del cuerpo */
+}

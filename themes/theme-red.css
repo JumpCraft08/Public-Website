@@ -1,0 +1,175 @@
+body {
+    background-color: #3e0a25; /* Rojo oscuro para el fondo */
+    color: #ffffff; /* Color de texto blanco por defecto */
+}
+
+.container {
+    background-color: #6a1b35; /* Fondo rojo más oscuro del contenedor */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1); /* Sombra suave clara */
+}
+
+h1 {
+    color: #ffffff; /* Color del encabezado en blanco */
+}
+
+p {
+    color: #f8bbd0; /* Rosa claro para el texto */
+}
+
+ul {
+    color: #f8bbd0; /* Rosa claro para listas */
+}
+
+.separator {
+    border-top: 1px solid #9c1b2a; /* Línea delgada en rojo oscuro */
+}
+
+/* Mini barra lateral */
+.sidebar {
+    background-color: #6a1b35;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+#toggle-sidebar { background: #6a1b35;}
+
+/* User entry */
+.user-entry {
+    background-color: #4e1b28;
+    border: 1px solid #9c1b2a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.user-entry h2 {
+    color: #ffffff;
+}
+
+.user-entry p {
+    color: #f48fb1; /* Rosa suave */
+}
+
+/* Dropdown */
+.dropdown-content {
+    border: 1px solid #9c1b2a;
+    background-color: #4e1b28;
+}
+
+/* Chat */
+.chat-container {
+    border: 1px solid #9c1b2a;
+    background-color: #3e0a25;
+}
+
+.chat-box {
+    background-color: #4e1b28;
+    color: #ffffff;
+    scrollbar-color: #9c1b2a #3e0a25;
+}
+
+.chat-box::-webkit-scrollbar-track {
+    background: #3e0a25;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+    background-color: #9c1b2a;
+}
+
+.chat-message {
+    color: #ffffff;
+}
+
+.chat-message strong {
+    color: #ff4081; /* Rojo brillante */
+}
+
+/* Formulario */
+form {
+    background-color: #3e0a25;
+    border-top: 1px solid #9c1b2a;
+}
+
+input[type="text"] {
+    border: 1px solid #9c1b2a;
+    background-color: #4e1b28;
+    color: #ffffff;
+}
+
+input[type="text"]::placeholder {
+    color: #f48fb1;
+}
+
+.send-message-btn {
+    background-color: #ff4081;
+    color: #ffffff;
+}
+
+.send-message-btn:hover {
+    background-color: #d81b60;
+}
+
+/* Blog */
+.blog-entry {
+    background-color: #4e1b28;
+    border: 1px solid #9c1b2a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.blog-entry h2 {
+    color: #ffffff;
+}
+
+.blog-entry p {
+    color: #f8bbd0;
+}
+
+.entry-text {
+    color: #ffffff;
+}
+
+/* PDF */
+.pdf-container {
+    background-color: #4e1b28;
+}
+
+.toggle-btn {
+    color: #ffffff;
+}
+
+.toggle-btn:hover {
+    color: #f48fb1;
+}
+
+.hidden-entries {
+    color: #ffffff;
+}
+
+/* Modales */
+.modal {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+    background-color: #4e1b28;
+    border: 1px solid #9c1b2a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.close {
+    color: #f48fb1;
+}
+
+.close:hover,
+.close:focus {
+    color: #ffffff;
+}
+
+.modal-username {
+    color: #ffffff;
+}
+
+.modal-description {
+    color: #f48fb1;
+}
+
+.modal-body {
+    color: #ffffff;
+}

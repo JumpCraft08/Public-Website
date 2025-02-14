@@ -1,0 +1,167 @@
+body {
+    background-color: #3d1a5b; /* Morado profundo para el fondo */
+    color: #ffffff; /* Color de texto blanco por defecto */
+}
+
+.container {
+    background-color: #542c85; /* Fondo morado más oscuro del contenedor */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1); /* Sombra suave clara */
+}
+
+h1 {
+    color: #ffffff; /* Color del encabezado en blanco */
+}
+
+p {
+    color: #d8b4ff; /* Color del texto en lila claro */
+}
+
+ul {
+    color: #d8b4ff; /* Color del texto de la lista en lila claro */
+}
+
+.separator {
+    border-top: 1px solid #7d4bae; /* Línea delgada en morado medio */
+}
+
+.sidebar {
+    background-color: #542c85; /* Fondo morado más oscuro */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Sombra para la mini barra lateral */
+}
+
+#toggle-sidebar { background: #542c85;}
+
+.user-entry {
+    background-color: #2e1042; /* Fondo morado oscuro para las entradas */
+    border: 1px solid #7d4bae; /* Borde ligero en morado medio */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra suave para las entradas */
+}
+
+.user-entry h2 {
+    color: #ffffff; /* Color del título de la entrada en blanco */
+}
+
+.user-entry p {
+    color: #c299ff; /* Color del texto de la entrada en lavanda */
+}
+
+.dropdown-content {
+    border: 1px solid #7d4bae; /* Borde morado medio */
+    background-color: #2e1042; /* Color de fondo morado oscuro */
+}
+
+.chat-container {
+    border: 1px solid #7d4bae; /* Borde morado medio */
+    background-color: #3d1a5b; /* Fondo morado oscuro */
+}
+
+.chat-box {
+    background-color: #2e1042; /* Fondo morado oscuro para el área de chat */
+    color: #ffffff; /* Color de texto blanco */
+    scrollbar-color: #7d4bae #3d1a5b; /* Para Firefox */
+}
+
+.chat-box::-webkit-scrollbar-track {
+    background: #3d1a5b; /* Fondo del riel del scrollbar */
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+    background-color: #7d4bae; /* Color del pulgar del scrollbar */
+}
+
+.chat-message {
+    color: #ffffff; /* Color de texto blanco para los mensajes */
+}
+
+.chat-message strong {
+    color: #c77dff; /* Color para el texto destacado en lavanda vibrante */
+}
+
+form {
+    background-color: #3d1a5b; /* Fondo morado oscuro para el formulario */
+    border-top: 1px solid #7d4bae; /* Borde morado medio en la parte superior */
+}
+
+input[type="text"] {
+    border: 1px solid #7d4bae; /* Borde morado medio */
+    background-color: #2e1042; /* Fondo morado oscuro para el input */
+    color: #ffffff; /* Color de texto blanco en el input */
+}
+
+input[type="text"]::placeholder {
+    color: #b084cc; /* Color lila suave para el placeholder */
+}
+
+.send-message-btn {
+    background-color: #c77dff; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto en blanco */
+}
+
+.send-message-btn:hover {
+    background-color: #9d57d3; /* Color al pasar el ratón */
+}
+
+.blog-entry {
+    background-color: #2e1042; /* Fondo morado oscuro para las entradas */
+    border: 1px solid #7d4bae; /* Borde más oscuro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
+}
+
+.blog-entry h2 {
+    color: #ffffff; /* Color del título de la entrada en blanco */
+}
+
+.blog-entry p {
+    color: #e0aaff; /* Color del texto en lavanda */
+}
+
+.entry-text {
+    color: #ffffff; /* Asegurar que el texto dentro de .entry-text sea blanco */
+}
+
+.pdf-container {
+    background-color: #2e1042; /* Fondo morado oscuro para el contenedor del PDF */
+}
+
+.toggle-btn {
+    color: #ffffff; /* Color de los botones en blanco */
+}
+
+.toggle-btn:hover {
+    color: #e0aaff; /* Color lavanda al pasar el mouse */
+}
+
+.hidden-entries {
+    color: #ffffff; /* Asegurar que el texto sea blanco */
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro */
+}
+
+.modal-content {
+    background-color: #2e1042; /* Fondo morado oscuro para el contenido del modal */
+    border: 1px solid #7d4bae; /* Borde morado medio */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
+}
+
+.close {
+    color: #b084cc; /* Color lila suave */
+}
+
+.close:hover,
+.close:focus {
+    color: #ffffff; /* Color blanco al pasar el ratón */
+}
+
+.modal-username {
+    color: #ffffff; /* Color blanco para el nombre de usuario */
+}
+
+.modal-description {
+    color: #e0aaff; /* Color lavanda */
+}
+
+.modal-body {
+    color: #ffffff; /* Color blanco para el texto del cuerpo */
+}

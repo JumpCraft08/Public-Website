@@ -1,0 +1,157 @@
+body {
+    background-color: #f0f0f0; /* Color de fondo suave */
+}
+
+.container {
+    background-color: #ffffff; /* Fondo blanco del contenedor */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h1 {
+    color: #333; /* Color del encabezado */
+}
+
+p {
+    color: #555; /* Color del texto */
+}
+
+ul {
+    color: #555; /* Color del texto de la lista */
+}
+
+.separator {
+    border-top: 1px solid #ccc; /* Línea delgada */
+}
+
+/* Mini barra lateral para el botón de cierre de sesión y opciones */
+.sidebar {
+    background-color: #ffffff; /* Fondo blanco */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra para la mini barra lateral */
+}
+
+#toggle-sidebar { background: #ffffff;}
+
+/* Estilo para las User entry */
+.user-entry {
+    background-color: #f9f9f9; /* Fondo suave para las entradas */
+    border: 1px solid #ddd; /* Borde ligero */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave para las entradas */
+}
+
+.user-entry h2 {
+    color: #333; /* Color del título de la entrada */
+}
+
+.user-entry p {
+    color: #555; /* Color del texto de la entrada */
+}
+
+/* Estilo para el contenido desplegable */
+.dropdown-content {
+    border: 1px solid #ccc; /* Borde */
+    background-color: #f9f9f9; /* Color de fondo */
+}
+
+/* Estilos para el chat */
+.chat-container {
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.chat-box {
+    background-color: #f9f9f9;
+    color: #000;
+    scrollbar-color: #ddd #f0f0f0; /* Para Firefox */
+}
+
+.chat-box::-webkit-scrollbar-track {
+    background: #f0f0f0;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+    background-color: #ddd;
+}
+
+.chat-message {
+    color: #000;
+}
+
+.chat-message strong {
+    color: #007bff;
+}
+
+form {
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+input[type="text"] {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #000;
+}
+
+input[type="text"]::placeholder {
+    color: #aaa;
+}
+
+.send-message-btn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.send-message-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para las entradas del blog */
+.blog-entry {
+    background-color: #f9f9f9; /* Fondo claro para las entradas */
+    border: 1px solid #ddd; /* Borde claro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave para las entradas */
+}
+
+.blog-entry h2 {
+    color: #000; /* Color del título de la entrada en tema claro */
+}
+
+.blog-entry p {
+    color: #555; /* Color del texto de la entrada en tema claro */
+}
+
+.pdf-container {
+    background-color: #f9f9f9; /* Fondo claro para el contenedor del PDF */
+}
+
+/* Estilos para los botones de desplegable */
+.toggle-btn {
+    color: #007BFF;
+}
+
+.toggle-btn:hover {
+    color: #0056b3;
+}
+
+/* Estilos para modales */
+.modal {
+    background-color: rgba(0,0,0,0.4); /* Fondo con opacidad */
+}
+
+.modal-content {
+    background-color: #fefefe; /* Fondo blanco */
+    border: 1px solid #888; /* Borde gris */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    color: #aaa; /* Color gris */
+}
+
+.close:hover,
+.close:focus {
+    color: black; /* Color negro al pasar el ratón */
+}
+
+.modal-description {
+    color: #666; /* Color gris */
+}
