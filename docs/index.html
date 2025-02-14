@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Principal</title>
     <style>
-        body {
-            display: none; /* Ocultar todo el contenido de la página */
+        /* Ocultar la página hasta verificar autenticación */
+        html, body {
+            display: none;
         }
     </style>
     <script src="https://cdn.auth0.com/js/auth0/9.19/auth0.min.js"></script>
@@ -16,6 +17,10 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
+    <div class="loading">
+        Cargando... Por favor espera.
+    </div>
+
     <div class="container">
         <h1>Repatriaremos Jerusalen</h1>
         <p>Esta es una pagina web donde se guarda contenido para dentro de unos aos poder visualizarlo.</p>
